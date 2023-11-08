@@ -30,7 +30,7 @@
 {
     background-image: url("product-images/Dreamscape.jpg");
     background-repeat: no-repeat;
-    background-size: 110%;
+    background-size: cover;
     background-position: center center;
     width: 100%;
     height: 100%;
@@ -39,9 +39,8 @@
 
 .product-background:hover
 {
-    background-size: 115%;
-    transition: background-size 0.3s;
-
+    transform: scale(0.98);
+    transition: 0.3s;
 }
 
 .product-text
