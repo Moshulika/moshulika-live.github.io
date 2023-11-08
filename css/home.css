@@ -1,0 +1,148 @@
+
+
+.main-picture
+{
+    object-fit: contain;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.main-picture img
+{
+
+    width: 100%;
+    border-radius: 20px;
+
+}
+
+.product
+{
+
+    height: 400px;
+    width: 100%;
+    overflow: clip;
+    margin-bottom: 2vh;
+
+}
+
+.product-background
+{
+    background-image: url("product-images/Dreamscape.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    transition: 0.3s;
+}
+
+.product-background:hover
+{
+    background-size: 110%;
+    transition: background-size 0.3s;
+
+}
+
+.product-text
+{
+
+    top: 60%;
+    height: 170px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(100,100,100,1) 70%, rgba(253,187,45,0) 100%);
+}
+
+.product-desc
+{
+    text-overflow: ellipsis;
+}
+
+.product-button
+{
+    display: flex;
+    justify-content: center;
+}
+
+p
+{
+    font-family: RasbernRegular;
+}
+
+.filler-image
+{
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    vertical-align: center;
+}
+
+.filler-image img
+{
+    align-items: center;
+    width: 100%;
+}
+
+.frunza-right
+{
+    background-image: url("frunza1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+
+.frunza-left
+{
+    background-image: url("frunza1.svg");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.frunza-cont
+{
+    width: 100%;
+    height: 100%;
+}
+
+.buttons
+{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.buttons a
+{
+    color: #07422F;
+    font-size: 32px;
+}
+
+.buttons a:hover
+{
+    color: #0d6c4a;
+    transition: 0.3s;
+
+}
+
+.social-buttons
+{
+    margin-left: 2vw;
+}
+
+.under-main-image
+{
+    padding: 10px;
+}
+
+.instagram-center
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 3vh;
+}
+

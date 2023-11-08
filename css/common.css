@@ -1,0 +1,415 @@
+body
+{
+    overflow-x: hidden;
+    background-image: url("blurry_background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+h1, h4
+{
+    font-family: Rasbern, serif;
+    color: #07422F;
+}
+
+.text-leaves
+{
+    background-image: url("leaves.webp");
+    width: 50%;
+}
+
+.no-margin
+{
+    font-family: Rasbern, serif;
+    margin: 0 !important;
+    color: white;
+}
+
+.product-desc-text
+{
+    color: white;
+    font-family: RasbernRegular, serif;
+}
+
+h5
+{
+    font-family: RasbernMed, serif;
+}
+
+.navbar-brand, .nav-link
+{
+    font-family: Rasbern, serif;
+    color: #07422F;
+}
+
+.navbar-collapse
+{
+    flex-grow: 0 !important;
+}
+
+.navbar a
+{
+    font-size: 24px;
+}
+
+.nav-item a
+{
+    color: #07422F;
+}
+
+.nav-item a:hover, .navbar-brand:hover
+{
+    color: #0d6c4a;
+    transition: 0.3s;
+}
+
+.nav-link:hover
+{
+    color: #0d6c4a;
+    transition: 0.3s;
+
+}
+
+.active
+{
+    text-decoration: underline #07422F !important;
+}
+
+.navbar
+{
+    margin-top: 5vh;
+}
+
+.navbar-nav
+{
+    display: flex;
+    justify-content: center;
+}
+
+.about
+{
+    width: 70%;
+}
+
+.author
+{
+    color: #07422F;
+    font-family: RasbernRegular;
+    text-align: right;
+    text-decoration: none;
+}
+
+.author:hover
+{
+    color: #0d6c4a;
+}
+
+.main-button
+{
+
+    width: 200px;
+    height: 50px;
+    padding: 12px;
+    font-family: RasbernRegular;
+    font-size: 20px;
+    align-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    transition: 0.3s;
+    background-image: linear-gradient(to right, #07422F 0%, #0d6c4a 51%, #07422F  100%);
+    background-size: 200% auto;
+}
+
+.small-button
+{
+
+    color: white;
+    background-color: rgba(255,255,255,0);
+    min-width: 100px;
+    height: 55px;
+    padding: 12px;
+    font-family: RasbernRegular;
+    font-size: 20px;
+    align-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 20px;
+    border: none;
+    transition: 0.3s;
+}
+
+.small-button:hover {
+
+    color: white;
+    transition: 0.3s;
+    text-decoration: underline white;
+
+}
+
+.main-button:hover {
+
+    color:white;
+    transition: 0.3s;
+
+    background-position: right center;
+
+}
+
+footer
+{
+    padding: 10px 10px 50px 10px;
+}
+
+.footer-contents
+{
+
+    align-items: center;
+    color: #07422F;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer-icons a, .social-icon
+{
+    padding: 10px;
+    font-size: 24px;
+
+}
+
+.footer-contents p, .footer-link
+{
+    color: #07422F;
+    font-family: Rasbern, serif;
+}
+
+.footer-link:hover, .footer-icon:hover
+{
+    color: #0d6c4a;
+    transition: 0.3s;
+
+}
+
+.footer-link
+{
+    padding: 5px;
+}
+
+.footer-contents a
+{
+    color: #07422F;
+}
+
+.space
+{
+    margin-top: 10vh;
+}
+
+.small-space
+{
+    margin-top: 2vh;
+}
+
+.thank-you
+{
+    display: flex;
+    justify-content: center;
+}
+
+.insta-row
+{
+    justify-content: center !important;
+}
+
+.thank-you-container
+{
+    text-align: center;
+}
+
+.help-col-1
+{
+
+    display: flex;
+    justify-content: right;
+    align-items: center !important;
+    align-content: center;
+    margin: auto !important;
+    vertical-align: center !important;
+
+}
+
+.help-col-2
+{
+
+    align-items: center !important;
+    align-content: center;
+    margin: auto !important;
+    vertical-align: center !important;
+}
+
+
+@media screen and (max-width: 992px) {
+
+
+    .frunza-right
+    {
+        background-image: none;
+    }
+
+    .about
+    {
+        width: 100%;
+    }
+
+    #space_first
+    {
+        margin-top: 5vh;
+    }
+
+    .filler-image
+    {
+        display: none;
+    }
+
+    .help-col-1
+    {
+        justify-content: left;
+    }
+
+}
+
+.only-on-phone
+{
+    display: none;
+}
+
+@media screen and (max-width: 390px) {
+
+    .product-text
+    {
+        top: 58%;
+    }
+
+    .small-button
+    {
+        font-size: 18px;
+    }
+
+    .footer-icon
+    {
+        font-size: 14px !important;
+    }
+
+    .footer-link
+    {
+        font-size: 14px;
+    }
+
+    .social-buttons a
+    {
+        font-size: 18px !important;
+    }
+
+}
+
+@media screen and (max-width: 770px) {
+
+    .contact-animation
+    {
+        display: none;
+    }
+
+    .only-on-phone
+    {
+        display: block;
+    }
+
+    .random-products-title
+    {
+        text-align: center;
+    }
+
+    .thank-you-text
+    {
+        text-align: center;
+    }
+
+
+}
+
+
+
+@font-face {
+
+    font-family: Rasbern;
+    src: url('Rasbern-Black.otf');
+    font-display: swap;
+
+}
+
+@font-face {
+
+    font-family: RasbernLight;
+    src: url('Rasbern-Light.otf');
+    font-display: swap;
+
+}
+
+@font-face {
+
+    font-family: RasbernRegular;
+    src: url('Rasbern-Regular.otf');
+    font-display: swap;
+
+}
+
+@font-face {
+
+    font-family: RasbernMed;
+    src: url('Rasbern-Medium.otf');
+    font-display: swap;
+
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+    -webkit-border-radius: 20px;
+}
+
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: #07422F;
+    -webkit-border-radius: 20px;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+    background: #0d6c4a;
+    -webkit-border-radius: 20px;
+    -webkit-transition: 0.3s;
+}
+
+::selection {
+    background: rgba(13, 108, 74, 0.7);
+}
