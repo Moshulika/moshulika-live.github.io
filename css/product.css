@@ -36,9 +36,28 @@ body
 
 }
 
+.modal-header
+{
+    border-bottom: none !important;
+}
+
+.modal-footer
+{
+    border-top: none !important;
+}
+
+
 .modal-photo img
 {
+    margin-top: 20px;
     width: 100%;
+}
+
+.modal-content
+{
+    overflow-x: hidden;
+    background-image: url("blurry_background.jpg");
+    background-size: cover;
 }
 
 .modal-footer
